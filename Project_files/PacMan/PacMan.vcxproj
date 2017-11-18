@@ -86,19 +86,19 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(SolutionDir)glew-2.0.0\include\GL;$(SolutionDir)SDL2-2.0.5\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)glew-2.0.0\lib\Release\Win32;$(SolutionDir)SDL2-2.0.5\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)glew-2.0.0\include\GL;$(SolutionDir)SDL2-2.0.5\include;$(SolutionDir)AssImp\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)glew-2.0.0\lib\Release\Win32;$(SolutionDir)SDL2-2.0.5\lib\x86;$(SolutionDir)AssImp\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)glew-2.0.0\include\GL;$(SolutionDir)glm\glm;$(SolutionDir)SDL2-2.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)glew-2.0.0\include\GL;$(SolutionDir)glm\glm;$(SolutionDir)SDL2-2.0.5\include;$(SolutionDir)AssImp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(SolutionDir)glew-2.0.0\lib\Release\Win32;$(SolutionDir)SDL2-2.0.5\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;opengl32.lib;glu32.lib;glew32.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)glew-2.0.0\lib\Release\Win32;$(SolutionDir)SDL2-2.0.5\lib\x86;$(SolutionDir)AssImp\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;opengl32.lib;glu32.lib;glew32.lib;glew32s.lib;assimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>

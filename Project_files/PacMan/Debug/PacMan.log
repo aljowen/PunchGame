@@ -1,2 +1,20 @@
-﻿  PacMan.vcxproj -> C:\Users\user\Desktop\invaders\Project_files\Debug\Graphics.exe
+﻿  game.cpp
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(103): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(104): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(395): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(396): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(397): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(430): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(433): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(472): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(473): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(493): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(494): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(643): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(663): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(667): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(671): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(675): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\user\desktop\invaders\project_files\pacman\game.cpp(679): warning C4305: '=': truncation from 'double' to 'float'
+  PacMan.vcxproj -> C:\Users\user\Desktop\invaders\Project_files\Debug\Graphics.exe
   PacMan.vcxproj -> C:\Users\user\Desktop\invaders\Project_files\Debug\Graphics.pdb (Partial PDB)

@@ -14,15 +14,17 @@
 #include "gameObject.h"
 #include "bindings.h"
 
+
 class Player : public GameObject {
 public:
-
 	float moveSpeed = 0.5f;
 
 	int Update(float dt, Bindings keyBinds);
 
-	Player::Player() :GameObject()
-	{
+	void fireWeapon();
+
+	//Player::Player() :GameObject()
+	//{
 		
-	}
+	//}
 };

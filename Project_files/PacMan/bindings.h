@@ -7,6 +7,8 @@ public:
 	int left;
 	int right;
 	int fire;
+	int cameraPos;
+	int perspective;
 
 	bool leftPressed;
 	bool rightPressed;

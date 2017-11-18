@@ -37,6 +37,8 @@ public:
 
 	void Setup();
 	void SetupImg(std::string imageLoc);
+
+	void loadModel(std::string filePath);
 private:
 
 };

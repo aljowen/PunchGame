@@ -12,6 +12,7 @@
 #include "player.h"
 #include "background.h"
 
+
 #include "bindings.h"
 
 class Game {
@@ -23,6 +24,12 @@ public:
 	int frameTarget;
 	bool frameLimiter;
 	bool vsync;
+	float fov;
+	bool aspectLock;
+	bool scale;
+
+	float cameraPrevRotY = 0.0f;
+
 	int alienShootCounter;
 
 	int score = 0;
@@ -30,8 +37,8 @@ public:
 
 	int hit = 0;
 
-	float width = 800;
-	float height = 600;
+	float width = 1280;
+	float height = 720;
 
 	glm::mat4 viewMatrix;
 	glm::mat4 projectionMatrix;

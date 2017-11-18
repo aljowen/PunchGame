@@ -20,11 +20,18 @@ int Player::Update(float dt, Bindings keyBinds) {
 		}
 
 		if (keyBinds.firePressed) {
-			
+			fireWeapon();
 		}
-
 	//}
 	
 
 	return -1;
 }
+
+void Player::fireWeapon() {
+
+
+	return;
+}
+
+//std::vector<std::shared_ptr<Player>> Player::playerList;
